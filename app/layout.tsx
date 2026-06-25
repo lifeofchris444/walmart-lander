@@ -30,9 +30,9 @@ export const metadata: Metadata = {
     siteName: "Walmart Method",
     images: [
       {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6859811db8c0679449725597_new-Walmart-logo-01-q4bSMtQp8YRVUjJtK8NQAs5C3ye3n8.png",
+        width: 1000,
+        height: 1000,
         alt: "Walmart Logo",
       },
     ],
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Walmart Method",
     description: "Unlock up to $750 in Walmart rewards with a simple process.",
-    images: ["/og-image.jpg"],
+    images: ["https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6859811db8c0679449725597_new-Walmart-logo-01-q4bSMtQp8YRVUjJtK8NQAs5C3ye3n8.png"],
   },
   other: {
     "apple-mobile-web-app-title": "Walmart Method",

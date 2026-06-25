@@ -16,7 +16,7 @@ const steps = [
   },
   {
     icon: ClipboardCheck,
-    title: "Complete the Walmart survey",
+    title: "Complete the survey",
     description: "Share your shopping preferences",
   },
   {
@@ -26,7 +26,7 @@ const steps = [
   },
   {
     icon: Trophy,
-    title: "Receive your $750 Walmart gift card",
+    title: "Receive your $750 gift card",
     description: "Delivered straight to your inbox",
   },
 ];

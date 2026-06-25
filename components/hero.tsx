@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       ref={sectionRef}
-      className="relative flex items-center justify-center overflow-hidden pt-12 pb-4 sm:pt-16 sm:pb-6 px-4 min-h-[70vh] sm:min-h-[80vh]"
+      className="relative flex items-start justify-center overflow-hidden pt-8 pb-4 sm:pt-12 sm:pb-6 px-4"
     >
       {/* Subtle background shapes with gentle floating animation */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -19,19 +19,6 @@ export function Hero() {
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
-        {/* Walmart Logo */}
-        <div
-          className={`flex justify-center mb-10 sm:mb-12 transition-all duration-700 ease-out ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
-          }`}
-        >
-          <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6859811db8c0679449725597_new-Walmart-logo-01-q4bSMtQp8YRVUjJtK8NQAs5C3ye3n8.png"
-            alt="Walmart"
-            className="h-36 sm:h-40 md:h-44 lg:h-48 w-auto"
-          />
-        </div>
-
         {/* Headline */}
         <h1
           className={`text-2xl sm:text-4xl md:text-[2.75rem] lg:text-5xl font-semibold text-foreground leading-[1.2] sm:leading-[1.15] mb-5 sm:mb-6 max-w-[320px] sm:max-w-2xl md:max-w-3xl mx-auto transition-all duration-700 ease-out delay-100 ${
@@ -59,7 +46,7 @@ export function Hero() {
           }`}
         >
           <a
-            href="https://trksy.org/aff_c?offer_id=1913&aff_id=26188"
+            href="https://trksy.org/aff_c?offer_id=3004&aff_id=26188"
             target="_blank"
             rel="noopener noreferrer"
             className="touch-button group inline-flex items-center gap-3 bg-[#0071ce] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#005ba1] transition-all duration-300 hover:shadow-xl hover:shadow-[#0071ce]/20 hover:-translate-y-0.5"
